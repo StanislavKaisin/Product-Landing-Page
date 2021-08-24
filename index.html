@@ -13,8 +13,8 @@
   <div class="container">
     <header id="header">
       <a href="#" class="logo-link"><img
-          src="https://www.freelogodesign.org/file/app/client/thumb/70a207af-d31a-47cd-96db-d5cabf93be95_200x200.png?1578766937067"
-          alt="A company logo" id="header-img" width="100" height="100" /></a>
+          src="./logo_200x200.png"
+          alt="A company logo" id="header-img" width="200" height="200" /></a>
       <nav id="nav-bar">
         <ul>
           <li><a href="#intro" class="nav-link">Explanation</a></li>
@@ -102,7 +102,15 @@
       </form>
     </main>
   </div>
+  
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <div id="div">текст</div>
+<script>
+  let div = document.getElementById('div')
+  div.insertAdjacentHTML('afterBegin', '<p>Привет</p>');
+  div.insertAdjacentHTML('beforeEnd', '<p>Пока</p>');
+</script>
+
 </body>
 
 </html>

@@ -42,8 +42,8 @@ body {
 }
 
 .logo-link > img {
-  width: 100px;
-  height: 100px;
+  width: 180px;
+  height: 180px;
 }
 .container {
   box-sizing: border-box;
@@ -148,8 +148,8 @@ hr {
     right: 50%;
     transform: translate(+100%);
   }
-  #video{
-    width: 640PX;
-    height: 360PX;
+  #video {
+    width: 640px;
+    height: 360px;
   }
 }
